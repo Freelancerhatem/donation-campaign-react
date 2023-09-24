@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "title": "Children's Education Fund",
+      "img": "https://i.ibb.co/z5dpgSF/1.jpg",
+      "category": "Education",
+      "description": "Support underprivileged children's education",
+      "price": 50,
+      "bg-color": "#FF5733",
+      "cat-color": "#FFC300",
+      "text-color": "#FFFFFF"
+    },
+    {
+      "id": 2,
+      "title": "Clean Water Initiative",
+      "img": "https://i.ibb.co/KwPc8gM/2.jpg",
+      "category": "Environment",
+      "description": "Provide clean drinking water to communities in need",
+      "price": 30,
+      "bg-color": "#3498DB",
+      "cat-color": "#1ABC9C",
+      "text-color": "#FFFFFF"
+    },
+    {
+      "id": 3,
+      "title": "Animal Welfare Fund",
+      "img": "https://i.ibb.co/SshBp9D/3.jpg",
+      "category": "Environment",
+      "description": "Support shelters and rescue organizations",
+      "price": 25,
+      "bg-color": "#9B59B6",
+      "cat-color": "#E74C3C",
+      "text-color": "#FFFFFF"
+    },
+    {
+      "id": 4,
+      "title": "Hunger Relief Program",
+      "img": "https://i.ibb.co/C2dy782/4.jpg",
+      "category": "Health",
+      "description": "Provide meals to the hungry and food-insecure",
+      "price": 20,
+      "bg-color": "#F1C40F",
+      "cat-color": "#E67E22",
+      "text-color": "#000000"
+    },
+    {
+      "id": 5,
+      "title": "Medical Assistance Fund",
+      "img": "https://i.ibb.co/jHb8T3K/5.jpg",
+      "category": "Health",
+      "description": "Support medical treatment for those in need",
+      "price": 40,
+      "bg-color": "#27AE60",
+      "cat-color": "#2ECC71",
+      "text-color": "#FFFFFF"
+    },
+    {
+      "id": 6,
+      "title": "Environmental Conservation",
+      "img": "https://i.ibb.co/K9VfNdk/6.jpg",
+      "category": "Environment",
+      "description": "Protect and conserve our natural world",
+      "price": 35,
+      "bg-color": "#16A085",
+      "cat-color": "#3498DB",
+      "text-color": "#FFFFFF"
+    },
+    {
+      "id": 7,
+      "title": "Homeless Shelter Support",
+      "img": "https://i.ibb.co/4FgW5hx/7.jpg",
+      "category": "Support",
+      "description": "Help provide shelter for the homeless",
+      "price": 15,
+      "bg-color": "#E74C3C",
+      "cat-color": "#F1C40F",
+      "text-color": "#FFFFFF"
+    },
+    {
+      "id": 8,
+      "title": "Disaster Relief Fund",
+      "img": "https://i.ibb.co/F4m5P8R/8.jpg",
+      "category": "Support",
+      "description": "Support victims of natural disasters",
+      "price": 50,
+      "bg-color": "#EC7063",
+      "cat-color": "#D35400",
+      "text-color": "#FFFFFF"
+    },
+    {
+      "id": 9,
+      "title": "Arts and Culture Promotion",
+      "img": "https://i.ibb.co/0VWXPfn/9.jpg",
+      "category": "Entertainment",
+      "description": "Promote arts and cultural initiatives",
+      "price": 30,
+      "bg-color": "#9B59B6",
+      "cat-color": "#8E44AD",
+      "text-color": "#FFFFFF"
+    },
+    {
+      "id": 10,
+      "title": "Youth Empowerment Program",
+      "img": "https://i.ibb.co/qd1WF06/10.jpg",
+      "category": "Entertainment",
+      "description": "Empower young people with education and skills",
+      "price": 25,
+      "bg-color": "#3498DB",
+      "cat-color": "#1E8449",
+      "text-color": "#FFFFFF"
+    },
+    {
+      "id": 11,
+      "title": "Elderly Care Initiative",
+      "img": "https://i.ibb.co/64nqp6C/11.jpg",
+      "category": "Support",
+      "description": "Provide care and companionship for the elderly",
+      "price": 20,
+      "bg-color": "#F39C12",
+      "cat-color": "#E67E22",
+      "text-color": "#000000"
+    },
+    {
+      "id": 12,
+      "title": "Community Development",
+      "img": "https://i.ibb.co/cXkbLkL/12.jpg",
+      "category": "Tech",
+      "description": "Support community development projects",
+      "price": 35,
+      "bg-color": "#16A085",
+      "cat-color": "#2ECC71",
+      "text-color": "#FFFFFF"
+    }
+  ]
+  
