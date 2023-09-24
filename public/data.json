@@ -6,9 +6,9 @@
       "category": "Education",
       "description": "Support underprivileged children's education",
       "price": 50,
-      "bg-color": "#FF5733",
-      "cat-color": "#FFC300",
-      "text-color": "#FFFFFF"
+      "bgcolor": "bg-green-200",
+      "catcolor": "#FFC300",
+      "textcolor": "#FFFFFF"
     },
     {
       "id": 2,
@@ -17,9 +17,9 @@
       "category": "Environment",
       "description": "Provide clean drinking water to communities in need",
       "price": 30,
-      "bg-color": "#3498DB",
-      "cat-color": "#1ABC9C",
-      "text-color": "#FFFFFF"
+      "bgcolor": "bg-lime-200",
+      "catcolor": "#1ABC9C",
+      "textcolor": "#FFFFFF"
     },
     {
       "id": 3,
@@ -28,20 +28,20 @@
       "category": "Environment",
       "description": "Support shelters and rescue organizations",
       "price": 25,
-      "bg-color": "#9B59B6",
-      "cat-color": "#E74C3C",
-      "text-color": "#FFFFFF"
+      "bgcolor": "bg-red-200",
+      "catcolor": "#E74C3C",
+      "textcolor": "#FFFFFF"
     },
     {
       "id": 4,
       "title": "Hunger Relief Program",
       "img": "https://i.ibb.co/C2dy782/4.jpg",
       "category": "Health",
-      "description": "Provide meals to the hungry and food-insecure",
+      "description": "Provide meals to the hungry and foodinsecure",
       "price": 20,
-      "bg-color": "#F1C40F",
-      "cat-color": "#E67E22",
-      "text-color": "#000000"
+      "bgcolor": "bg-yellow-200",
+      "catcolor": "#E67E22",
+      "textcolor": "#000000"
     },
     {
       "id": 5,
@@ -50,9 +50,9 @@
       "category": "Health",
       "description": "Support medical treatment for those in need",
       "price": 40,
-      "bg-color": "#27AE60",
-      "cat-color": "#2ECC71",
-      "text-color": "#FFFFFF"
+      "bgcolor": "bg-yellow-200",
+      "catcolor": "#2ECC71",
+      "textcolor": "#FFFFFF"
     },
     {
       "id": 6,
@@ -61,9 +61,9 @@
       "category": "Environment",
       "description": "Protect and conserve our natural world",
       "price": 35,
-      "bg-color": "#16A085",
-      "cat-color": "#3498DB",
-      "text-color": "#FFFFFF"
+      "bgcolor": "lime",
+      "catcolor": "#3498DB",
+      "textcolor": "#FFFFFF"
     },
     {
       "id": 7,
@@ -72,9 +72,9 @@
       "category": "Support",
       "description": "Help provide shelter for the homeless",
       "price": 15,
-      "bg-color": "#E74C3C",
-      "cat-color": "#F1C40F",
-      "text-color": "#FFFFFF"
+      "bgcolor": "yellow",
+      "catcolor": "#F1C40F",
+      "textcolor": "#FFFFFF"
     },
     {
       "id": 8,
@@ -83,9 +83,9 @@
       "category": "Support",
       "description": "Support victims of natural disasters",
       "price": 50,
-      "bg-color": "#EC7063",
-      "cat-color": "#D35400",
-      "text-color": "#FFFFFF"
+      "bgcolor": "#EC7063",
+      "catcolor": "#D35400",
+      "textcolor": "#FFFFFF"
     },
     {
       "id": 9,
@@ -94,20 +94,20 @@
       "category": "Entertainment",
       "description": "Promote arts and cultural initiatives",
       "price": 30,
-      "bg-color": "#9B59B6",
-      "cat-color": "#8E44AD",
-      "text-color": "#FFFFFF"
+      "bgcolor": "#9B59B6",
+      "catcolor": "#8E44AD",
+      "textcolor": "#FFFFFF"
     },
     {
       "id": 10,
       "title": "Youth Empowerment Program",
       "img": "https://i.ibb.co/qd1WF06/10.jpg",
-      "category": "Entertainment",
+      "category": "Education",
       "description": "Empower young people with education and skills",
       "price": 25,
-      "bg-color": "#3498DB",
-      "cat-color": "#1E8449",
-      "text-color": "#FFFFFF"
+      "bgcolor": "green-400",
+      "catcolor": "#1E8449",
+      "textcolor": "#FFFFFF"
     },
     {
       "id": 11,
@@ -116,9 +116,9 @@
       "category": "Support",
       "description": "Provide care and companionship for the elderly",
       "price": 20,
-      "bg-color": "#F39C12",
-      "cat-color": "#E67E22",
-      "text-color": "#000000"
+      "bgcolor": "#F39C12",
+      "catcolor": "#E67E22",
+      "textcolor": "#000000"
     },
     {
       "id": 12,
@@ -127,9 +127,9 @@
       "category": "Tech",
       "description": "Support community development projects",
       "price": 35,
-      "bg-color": "#16A085",
-      "cat-color": "#2ECC71",
-      "text-color": "#FFFFFF"
+      "bgcolor": "#16A085",
+      "catcolor": "#2ECC71",
+      "textcolor": "#FFFFFF"
     }
   ]
   
