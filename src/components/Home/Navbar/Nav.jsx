@@ -3,7 +3,7 @@ import Logo from '../../../assets/image/Logo.png'
 
 const Nav = () => {
     return (
-        <div>
+        <div className="">
             <div className="flex justify-between px-20 py-5 items-center ">
                 <div>
                     <img src={Logo} alt="" />

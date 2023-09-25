@@ -1,22 +1,40 @@
 import PropTypes from 'prop-types';
+import { useEffect, useState } from 'react';
+import Donationcard from './Donationcard';
 
 
 
 const Donates = () => {
-    const local = localStorage.getItem('data');
-    const localStorageData = JSON.parse(local);
-    const { title, img, price, category, } = localStorageData;
+
+    const [donateCard,setDonateCard] = useState([]);
+    const[noData,setData] =useState(false);
+    const [isAllShow,setAllShow] =useState(false);
+    
+    useEffect(()=>{
+        const local = JSON.parse(localStorage.getItem('data'));
+        if(local){
+
+            setDonateCard(local);
+        }
+        else{
+            setData('NO DATA FOUND')
+        }
+    },[]);
+
+    
 
     return (
-        <div className='flex w-96 gap-2 h-32 shadow-md rounded-sm mx-20 mt-10 items-center'>
-            <div>
-                <img src={img} className='h-32 rounded-sm' alt="" />
-            </div>
-            <div className=''>
-                <p className='text-xs font-bold'>{category}</p>
-                <h2 className='text-sm font-bold'>{title}</h2>
-                <p>${price}</p>
-                <button className='py-1 px-2 rounded-md text-xs bg-[#FF444A]'>view details</button>
+        <div>
+            {noData ? <p>{noData}</p> : <div className='grid grid-cols-3'>
+
+            {isAllShow? donateCard.map((card,index) => <Donationcard key={index} card={card}></Donationcard>) :
+                donateCard.slice(0,3).map((card,index) => <Donationcard key={index} card={card}></Donationcard>)
+            }
+            </div>   
+            }
+            <div className='flex justify-center mt-4'>
+            <button className={`btn btn-success ${donateCard.length <3 ? 'hidden': ''}  text-center`} onClick={()=>setAllShow(!isAllShow)}>
+             { isAllShow? 'Show less' : 'Show all'}</button>
             </div>
         </div>
     );

@@ -5,10 +5,10 @@
       "img": "https://i.ibb.co/z5dpgSF/1.jpg",
       "category": "Education",
       "description": "Support underprivileged children's education",
-      "price": 50,
-      "bgcolor": "bg-green-200",
-      "catcolor": "#FFC300",
-      "textcolor": "#FFFFFF"
+      "price": 5000,
+      "bgcolor": "#5CD2E6",
+      "catcolor": "#FBF0B2",
+      "textcolor": "#FFC8C8"
     },
     {
       "id": 2,
@@ -16,10 +16,10 @@
       "img": "https://i.ibb.co/KwPc8gM/2.jpg",
       "category": "Environment",
       "description": "Provide clean drinking water to communities in need",
-      "price": 30,
-      "bgcolor": "bg-lime-200",
-      "catcolor": "#1ABC9C",
-      "textcolor": "#FFFFFF"
+      "price": 3000,
+      "bgcolor": "#F9DEC9",
+      "catcolor": "#F78CA2",
+      "textcolor": "#D80032"
     },
     {
       "id": 3,
@@ -27,10 +27,10 @@
       "img": "https://i.ibb.co/SshBp9D/3.jpg",
       "category": "Environment",
       "description": "Support shelters and rescue organizations",
-      "price": 25,
-      "bgcolor": "bg-red-200",
-      "catcolor": "#E74C3C",
-      "textcolor": "#FFFFFF"
+      "price": 2500,
+      "bgcolor": "#F9DEC9",
+      "catcolor": "#F78CA2",
+      "textcolor": "#D80032"
     },
     {
       "id": 4,
@@ -38,10 +38,10 @@
       "img": "https://i.ibb.co/C2dy782/4.jpg",
       "category": "Health",
       "description": "Provide meals to the hungry and foodinsecure",
-      "price": 20,
-      "bgcolor": "bg-yellow-200",
-      "catcolor": "#E67E22",
-      "textcolor": "#000000"
+      "price": 2000,
+      "bgcolor": "#EDB7ED",
+      "catcolor": "#82A0D8",
+      "textcolor": "#5B0888"
     },
     {
       "id": 5,
@@ -49,10 +49,10 @@
       "img": "https://i.ibb.co/jHb8T3K/5.jpg",
       "category": "Health",
       "description": "Support medical treatment for those in need",
-      "price": 40,
-      "bgcolor": "bg-yellow-200",
-      "catcolor": "#2ECC71",
-      "textcolor": "#FFFFFF"
+      "price": 4000,
+      "bgcolor": "#EDB7ED",
+      "catcolor": "#82A0D8",
+      "textcolor": "#5B0888"
     },
     {
       "id": 6,
@@ -60,10 +60,10 @@
       "img": "https://i.ibb.co/K9VfNdk/6.jpg",
       "category": "Environment",
       "description": "Protect and conserve our natural world",
-      "price": 35,
-      "bgcolor": "lime",
-      "catcolor": "#3498DB",
-      "textcolor": "#FFFFFF"
+      "price": 3500,
+      "bgcolor": "#F9DEC9",
+      "catcolor": "#F78CA2",
+      "textcolor": "#D80032"
     },
     {
       "id": 7,
@@ -71,10 +71,10 @@
       "img": "https://i.ibb.co/4FgW5hx/7.jpg",
       "category": "Support",
       "description": "Help provide shelter for the homeless",
-      "price": 15,
-      "bgcolor": "yellow",
-      "catcolor": "#F1C40F",
-      "textcolor": "#FFFFFF"
+      "price": 1500,
+      "bgcolor": "#0F2C59",
+      "catcolor": "#FFC7EA",
+      "textcolor": "#EDB7ED"
     },
     {
       "id": 8,
@@ -82,10 +82,10 @@
       "img": "https://i.ibb.co/F4m5P8R/8.jpg",
       "category": "Support",
       "description": "Support victims of natural disasters",
-      "price": 50,
-      "bgcolor": "#EC7063",
-      "catcolor": "#D35400",
-      "textcolor": "#FFFFFF"
+      "price": 5500,
+      "bgcolor": "#0F2C59",
+      "catcolor": "#FFC7EA",
+      "textcolor": "#EDB7ED"
     },
     {
       "id": 9,
@@ -93,7 +93,7 @@
       "img": "https://i.ibb.co/0VWXPfn/9.jpg",
       "category": "Entertainment",
       "description": "Promote arts and cultural initiatives",
-      "price": 30,
+      "price": 3500,
       "bgcolor": "#9B59B6",
       "catcolor": "#8E44AD",
       "textcolor": "#FFFFFF"
@@ -104,10 +104,10 @@
       "img": "https://i.ibb.co/qd1WF06/10.jpg",
       "category": "Education",
       "description": "Empower young people with education and skills",
-      "price": 25,
-      "bgcolor": "green-400",
-      "catcolor": "#1E8449",
-      "textcolor": "#FFFFFF"
+      "price": 2550,
+      "bgcolor": "#5CD2E6",
+      "catcolor": "#FBF0B2",
+      "textcolor": "#FFC8C8"
     },
     {
       "id": 11,
@@ -115,21 +115,21 @@
       "img": "https://i.ibb.co/64nqp6C/11.jpg",
       "category": "Support",
       "description": "Provide care and companionship for the elderly",
-      "price": 20,
-      "bgcolor": "#F39C12",
-      "catcolor": "#E67E22",
-      "textcolor": "#000000"
+      "price": 2500,
+      "bgcolor": "#0F2C59",
+      "catcolor": "#FFC7EA",
+      "textcolor": "#EDB7ED"
     },
     {
       "id": 12,
       "title": "Community Development",
       "img": "https://i.ibb.co/cXkbLkL/12.jpg",
-      "category": "Tech",
+      "category": "Education",
       "description": "Support community development projects",
-      "price": 35,
-      "bgcolor": "#16A085",
-      "catcolor": "#2ECC71",
-      "textcolor": "#FFFFFF"
+      "price": 3500,
+      "bgcolor": "#5CD2E6",
+      "catcolor": "#FBF0B2",
+      "textcolor": "#FFC8C8"
     }
   ]
   
