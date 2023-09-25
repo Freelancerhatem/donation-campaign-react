@@ -1,10 +1,12 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const Cards = ({ card }) => {
-    const { title, img, category, description, price, bgcolor, catcolor, textcolor } = card;
+    const { title, id,img, category, description, price, bgcolor, catcolor, textcolor } = card;
     return (
         <div>
-            <div className={`mx-4 mt-4 h-80 overflow-hidden rounded-xl  ${bgcolor} bg-clip-border text-gray-700 shadow-lg`}>
+           <Link to={`/details/${id}`}>
+           <div className={`mx-4 mt-4 h-80 overflow-hidden rounded-xl  ${bgcolor} bg-clip-border text-gray-700 shadow-lg`}>
                 <div>
                 <img className='h-52 w-[362px]'src={img}/>
                 </div>
@@ -13,6 +15,7 @@ const Cards = ({ card }) => {
                     <h3 className='text-xl font-bold'>{title}</h3>
                 </div>
             </div>
+           </Link>
         </div>
     );
 };

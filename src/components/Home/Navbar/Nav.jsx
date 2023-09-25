@@ -18,21 +18,21 @@ const Nav = () => {
                         Home
                     </NavLink>
                     <NavLink
-                        to="/donation"
+                        to="/donates"
                         className={({ isActive, isPending }) =>
                             isPending ? "" : isActive ? " border-b-2 border-[#FF444A] pb-1 text-[#FF444A] " : ""
                         }
                     >
                         Donation
                     </NavLink>
-                    <NavLink
+                    {/* <NavLink
                         to="/details"
                         className={({ isActive, isPending }) =>
                             isPending ? "" : isActive ? " border-b-2 border-[#FF444A] pb-1 text-[#FF444A] " : ""
                         }
                     >
                         Donation Details
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink
                         to="/statistics"
                         className={({ isActive, isPending }) =>
