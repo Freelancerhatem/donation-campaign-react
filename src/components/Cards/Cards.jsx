@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const Cards = ({ card }) => {
-    const { title, id,img, category, description, price, bgcolor, catcolor, textcolor } = card;
+    const { title, id,img, category,bgcolor, catcolor, textcolor } = card;
     return (
         <div>
            <Link to={`/details/${id}`}>
@@ -21,7 +21,7 @@ const Cards = ({ card }) => {
 };
 
 Cards.propTypes = {
-    card: PropTypes.object
+    card:PropTypes.object
 };
 
 export default Cards;

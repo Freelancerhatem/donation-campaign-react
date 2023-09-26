@@ -5,8 +5,7 @@ import Donationdata from "../../Donationdata/Donationdata";
 const Details = () => {
     const detailsData = useLoaderData();
     const params = useParams();
-    const[donatedata,setDonatedata]=useState([]);
-    
+    const[donatedata,setDonatedata]=useState({});
     useEffect(()=>{
         const donationData = detailsData.find(donation => donation.id == params.id);
         setDonatedata(donationData)
