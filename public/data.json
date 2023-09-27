@@ -6,9 +6,9 @@
       "category": "Education",
       "description": "Support underprivileged children's education",
       "price": 5000,
-      "bgcolor": "#5CD2E6",
-      "catcolor": "#FBF0B2",
-      "textcolor": "#FFC8C8"
+      "bgcolor": "#C3FAAA",
+      "catcolor": "#95FA68",
+      "textcolor": "#40CB02"
     },
     {
       "id": 2,
@@ -72,9 +72,9 @@
       "category": "Support",
       "description": "Help provide shelter for the homeless",
       "price": 1500,
-      "bgcolor": "#0F2C59",
-      "catcolor": "#FFC7EA",
-      "textcolor": "#EDB7ED"
+      "bgcolor": "#85abed",
+      "catcolor": "#4784ed",
+      "textcolor": "#02173b"
     },
     {
       "id": 8,
@@ -83,9 +83,9 @@
       "category": "Support",
       "description": "Support victims of natural disasters",
       "price": 5500,
-      "bgcolor": "#0F2C59",
-      "catcolor": "#FFC7EA",
-      "textcolor": "#EDB7ED"
+      "bgcolor": "#85abed",
+      "catcolor": "#4784ed",
+      "textcolor": "#02173b"
     },
     {
       "id": 9,
@@ -105,9 +105,9 @@
       "category": "Education",
       "description": "Empower young people with education and skills",
       "price": 2550,
-      "bgcolor": "#5CD2E6",
-      "catcolor": "#FBF0B2",
-      "textcolor": "#FFC8C8"
+      "bgcolor": "#C3FAAA",
+      "catcolor": "#95FA68",
+      "textcolor": "#40CB02"
     },
     {
       "id": 11,
@@ -116,9 +116,9 @@
       "category": "Support",
       "description": "Provide care and companionship for the elderly",
       "price": 2500,
-      "bgcolor": "#0F2C59",
-      "catcolor": "#FFC7EA",
-      "textcolor": "#EDB7ED"
+      "bgcolor": "#85abed",
+      "catcolor": "#4784ed",
+      "textcolor": "#02173b"
     },
     {
       "id": 12,
@@ -127,9 +127,9 @@
       "category": "Education",
       "description": "Support community development projects",
       "price": 3500,
-      "bgcolor": "#5CD2E6",
-      "catcolor": "#FBF0B2",
-      "textcolor": "#FFC8C8"
+      "bgcolor": "#C3FAAA",
+      "catcolor": "#95FA68",
+      "textcolor": "#40CB02"
     }
   ]
   

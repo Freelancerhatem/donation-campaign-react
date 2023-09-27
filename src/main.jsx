@@ -11,7 +11,7 @@ import Donates from './components/Home/Donates/Donates';
 import Statistics from './components/Home/Statistics/Statistics';
 import Details from './components/Home/Details/Details';
 import SearchLocal from './components/SearchCard/SearchLocal';
-import PieChartComponent from './components/Home/Statistics/Components';
+import ErrorElement from './components/ErrorElement/ErrorElement';
 
 
 
@@ -19,6 +19,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element:<Home></Home>,
+    errorElement:<ErrorElement></ErrorElement>,
     children:[
       {path:'/',
       element:<Router></Router>,
@@ -36,12 +37,7 @@ const router = createBrowserRouter([
       element: <Statistics></Statistics>,
       loader:()=>fetch('../data.json')
     },
-    {path:'/show',
-      element: <PieChartComponent></PieChartComponent>
-      
-    },
-    
-      {
+     {
         path:'/search',
         element: <SearchLocal></SearchLocal>
       }

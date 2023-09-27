@@ -9,7 +9,7 @@ const Donationcard = ({ card }) => {
         color:textcolor
     }
     return (
-        <div className='flex w-96 gap-2 h-32 shadow-md rounded-sm mx-20 mt-10 items-center'>
+        <div className='flex  w-64 md:w-80 lg:w-96 gap-2 h-32 shadow-md rounded-sm mx-auto mt-10 items-center'>
             <div>
                 <img src={img} className='w-40 h-32 rounded-sm' alt="" />
             </div>

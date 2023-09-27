@@ -11,7 +11,7 @@ const Cards = ({ card }) => {
                 <img className='h-52 w-[362px]'src={img}/>
                 </div>
                 <div className='pl-4 mt-2'>
-                    <p className='w-32 rounded-md mt-2 px-1' style={{backgroundColor:catcolor}}>{category}</p>
+                    <p className='w-32 rounded-md mt-2 px-1' style={{backgroundColor: catcolor, color: textcolor}}>{category}</p>
                     <h3 className='text-base mt-2 font-bold' style={{color:textcolor}}>{title}</h3>
                 </div>
             </div>

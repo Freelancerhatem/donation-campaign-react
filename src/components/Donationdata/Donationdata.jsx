@@ -40,7 +40,7 @@ const Donationdata = ({ donatedata }) => {
                 <img src={img} className="w-full h-[60vh] relative rounded-sm mx-auto" alt="" />
                 <div className="bg-[#3e3d3dd6] absolute bottom-0 rounded-sm w-full flex items-center  h-20">
 
-                    <button className="btn bg-[#FF444A] hover:bg-[#f45f64] border-none ml-5 text-white" onClick={() => handleDonate()}>Donate ${price}</button>
+                    <button className="btn bg-[#FF444A] hover:bg-[#f45f64] border-none ml-5 text-white w-24 md:w-28 lg:w-40" onClick={() => handleDonate()}>Donate ${price} </button>
 
                 </div>
 

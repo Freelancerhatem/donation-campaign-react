@@ -25,10 +25,10 @@ const Donates = () => {
 
     return (
         <div>
-            {noData ? <p>{noData}</p> : <div className='grid grid-cols-3'>
+            {noData ? <div><p className='flex items-center justify-center w-screen h-[70vh]'>{noData}</p></div> : <div className='grid grid-cols-1 md:grid-cols-2 '>
 
             {isAllShow? donateCard.map((card,index) => <Donationcard key={index} card={card}></Donationcard>) :
-                donateCard.slice(0,3).map((card,index) => <Donationcard key={index} card={card}></Donationcard>)
+                donateCard.slice(0,2).map((card,index) => <Donationcard key={index} card={card}></Donationcard>)
             }
             </div>   
             }

@@ -43,7 +43,7 @@ const RADIAN = Math.PI / 180;
 
   return (
     <div>
-    <div className="flex justify-center items-center">
+    <div className="flex  justify-center items-center">
         
         <div className="">
             {/* <ResponsiveContainer width={400} height={400} className=""> */}
@@ -55,7 +55,7 @@ const RADIAN = Math.PI / 180;
                         cy="50%"
                         labelLine={false}
                         label={renderCustomizedLabel}
-                        outerRadius={120}
+                        outerRadius={100}
                         fill="#8884d8"
                         dataKey="value"
                     >
