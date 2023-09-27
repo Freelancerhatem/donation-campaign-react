@@ -5,8 +5,9 @@ const SearchCard = ({card}) => {
         const { title, id,img, category,bgcolor, catcolor, textcolor } = card;
     return (
         <div className="">
+        
         <Link to={`/details/${id}`}>
-        <div className={`mx-4 mt-4 w-72 lg:w-96 h-80 overflow-hidden rounded-xl bg-clip-border text-gray-700 shadow-lg`} style={{backgroundColor:bgcolor}}>
+        <div className={`mx-auto mt-12 w-72 mb-44 h-80 overflow-hidden rounded-xl bg-clip-border text-gray-700 shadow-lg`} style={{backgroundColor:bgcolor}}>
              <div>
              <img className='h-52 w-[362px]'src={img}/>
              </div>
@@ -16,6 +17,7 @@ const SearchCard = ({card}) => {
              </div>
          </div>
         </Link>
+        <hr />
      </div>
     );
 };

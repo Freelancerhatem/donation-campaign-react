@@ -15,6 +15,7 @@ const Router = () => {
         <div>
             <Banner   DataSearch={DataSearch}></Banner>
             <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 max-w-7xl mx-auto py-10`}>
+             
                 {
                     DataSearch.map((card, index) => <Cards key={index} card={card} index={index+1}></Cards>)
                 }
