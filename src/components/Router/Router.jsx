@@ -4,13 +4,19 @@ import Banner from "../Home/Banner/Banner";
 
 
 const Router = () => {
-    const data = useLoaderData();
+    const DataSearch = useLoaderData();
+    const getSearchData =JSON.parse(localStorage.getItem('search'));
+    console.log(getSearchData);
+    
+
+
+
     return (
         <div>
-            <Banner DataSearch={data}></Banner>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 max-w-7xl mx-auto py-10">
+            <Banner   DataSearch={DataSearch}></Banner>
+            <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 max-w-7xl mx-auto py-10`}>
                 {
-                    data.map((card, index) => <Cards key={index} card={card} index={index+1}></Cards>)
+                    DataSearch.map((card, index) => <Cards key={index} card={card} index={index+1}></Cards>)
                 }
             </div>
         </div>

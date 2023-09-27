@@ -1,8 +1,12 @@
-# React + Vite
+# Search and Discovery:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Implement search options to help users find category that match their interests.
 
-Currently, two official plugins are available:
+# Mobile Responsiveness:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ensure the website is responsive and accessible on mobile devices for on-the-go donors.
+
+
+# Donation Distribution Overview:
+
+- "This website features a pie chart that displays the percentage of total available donations compared to the total amount you've donated."

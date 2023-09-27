@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
 import SearchCard from "../../SearchCard/SearchCard";
 
@@ -48,7 +48,9 @@ const Banner = ({DataSearch}) => {
     );
 };
 Banner.propTypes = {
-    DataSearch:PropTypes.array
+    DataSearch:PropTypes.array,
+    handleSearch:PropTypes.func,
+    cards:PropTypes.array
 };
 
 export default Banner;
